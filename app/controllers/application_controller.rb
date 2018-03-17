@@ -12,7 +12,7 @@ class ApplicationController < ActionController::Base
   end
   
   def counts(user)
-    @count_tweettasks = user.tweettasks.count
+    @count_tasks = user.tasks.count
   end
   
 end
